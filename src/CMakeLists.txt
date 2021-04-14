@@ -42,7 +42,7 @@
 #endif()
 
 # Generic test that uses conan libs
-add_executable(intro main.cpp)
+add_executable(game main.cpp)
 target_link_libraries(
   game
   PRIVATE project_options
